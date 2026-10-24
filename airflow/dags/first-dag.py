@@ -1,5 +1,5 @@
-from airflow.sdk import DAG
-from pendulum import datetime
+from airflow import DAG
+from datetime import datetime
 from airflow.providers.standard.operators.bash import BashOperator
 from airflow.providers.standard.operators.python import PythonOperator
 
